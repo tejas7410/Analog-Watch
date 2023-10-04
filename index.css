@@ -1,0 +1,52 @@
+.watch {
+  position: relative;
+  background-image: url("pngwing.com.png");
+  height: 400px;
+  width: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  background-blend-mode: color;
+}
+#center {
+  position: absolute;
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  top: 149px;
+  right: 143px;
+}
+#minute {
+  position: absolute;
+  background-color: black;
+  width: 4px;
+  height: 95px;
+  border-radius: 10px;
+  top: 61px;
+  right: 146px;
+  transform-origin: bottom;
+  /* display: none; */
+}
+#second {
+  position: absolute;
+  background-color: black;
+  width: 4px;
+  height: 104px;
+  border-radius: 10px;
+  top: 49px;
+  right: 145.7px;
+  transform-origin: bottom;
+  /* display: none; */
+}
+#hour {
+  position: absolute;
+  background-color: black;
+  width: 6px;
+  height: 78px;
+  border-radius: 10px;
+  top: 75px;
+  right: 145px;
+  transform-origin: bottom;
+  /* display: none; */
+}
